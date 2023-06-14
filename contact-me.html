@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact-Me</title>
+</head>
+<body>
+    <h2>Contact</h2>
+    <p>Name : Marius-Ionut Andrei</p>
+    <p>E-Mail: <a href="mailto:ionut.andrei09@gmail.com">ionut.andrei09@gmail.com</a></p>
+    <p>Telephone No. : <a href="tel:+34693462198">+34 693 46 21 98</a> </p>
+
+    <!-- Send Message -->
+    <p>You can mail me with your message, I will be answering as soon as I see it . </p>
+    <form action="mailto:ionut.andrei09@gmail.com" method="post" enctype="text/plain">
+        <table cellspacing="5">
+            <tr>
+                <td><label for="name">Your Name :</label></td>
+                <td><input type="text"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Your E-Mail : </label></td>
+                <td><input type="email"></td>
+            </tr>
+        </table>
+        <textarea name="message" id="" cols="30" rows="10"></textarea> <br>
+        <input type="submit">
+    </form>
+</body>
+</html>
